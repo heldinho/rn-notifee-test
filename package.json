@@ -1,0 +1,26 @@
+{
+  "name": "RnNotifeeTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "and": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "apk": "cd android/ && ./gradlew assembleRelease",
+    "clean": "cd android/ && ./gradlew clean"
+  },
+  "dependencies": {
+    "@notifee/react-native": "^7.3.0",
+    "@shopify/react-native-skia": "^0.1.170",
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "react-native-modern-datepicker": "^1.0.0-beta.91"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0"
+  }
+}
